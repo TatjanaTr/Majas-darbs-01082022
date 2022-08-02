@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+.roof {
+        width: 0;
+        height: 0;
+        border-left: 253px solid transparent;
+        border-right: 253px solid transparent;
+        border-bottom: 300px solid rgb(58, 58, 59);
+        justify-content: center;
+    align-items: center;
+        
+      }
+
+.house {
+    
+    top: 100%;
+    left: 75px;
+    height: 400px;
+    width: 500px;
+    background: white;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+  }
+  .window--1 {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    height: 150px;
+    width: 100px;
+    background: lightblue;
+    border: 2px solid black;
+    /* z-index: 3; */
+      }
+    .window--2 {
+        position: relative;
+        top: -110px;
+        left: 240px;
+    height: 150px;
+    width: 100px;
+    background: lightblue;
+    border: 2px solid black;
+    /* z-index: 3; */
+}
+
+   .door {
+    position: relative;
+    top: -120px;
+    left: 350px;
+    height: 210px;
+    width: 130px;
+    background: brown;
+    border: 2px solid black;
+    z-index: 3;
+  }
+
+  .car {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 800px;
+  }
+
+  .car_top {
+    position: relative;
+    align-items: left;
+    top: -250px;
+    left: 45px;
+    height: 80px;
+    width: 200px;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .car_body {
+    position: relative;
+    align-items: left;
+    top: -250px;
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    border-radius: 20px;
+  }
+  
+.wheel--1 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    top: -100px;
+    left: 50px;
+}
+
+.wheel--2 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    top: -100px;
+    left: 180px;
+}
+
+.dog {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.dog-head {
+  position: relative;
+  top: -260px;
+  border-radius: 50%;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0px;
+  left: 100px;
+}
+
+.ear-left {
+  position: relative;
+  top: -310px;
+  border-radius: 60%;
+  background-color: black;
+  width: 10px;
+  height: 20px;
+  left: 100px;
+}
+
+.ear-right {
+  position: relative;
+  top: -340px;
+  border-radius: 60%;
+  background-color: black;
+  width: 10px;
+  height: 20px;
+  left: 135px;
+}
+
+.dog-body {
+  position: relative;
+  top: -345px;
+  border-radius: 50%;
+  background-color: black;
+  width: 40px;
+  height: 90px;
+  left: 60px;
+  transform: rotate(70deg);
+}
+.front-left-paw {
+  position: relative;
+  border-radius: 60%;
+  background-color: black;
+  width: 10px;
+  height: 30px;
+  left: 110px;
+  top: -390px;
+  transform: rotate(125deg);
+}
+
+.front-right-paw {
+  position: relative;
+  border-radius: 60%;
+  background-color: black;
+  width: 10px;
+  height: 40px;
+  left: 120px;
+  top: -430px;
+  transform: rotate(125deg);
+}
+
+.back-paw {
+  position: relative;
+  border-radius: 45%;
+  background-color: black;
+  width: 10px;
+  height: 30px;
+  left: 60px;
+  top: -448px;
+  transform: rotate(105deg);
+}
+
+.tail {
+  position: relative;
+  border-radius: 45%;
+  background-color: black;
+  width: 10px;
+  height: 20px;
+  left: 28px;
+  top: -485px;
+  transform: rotate(95deg);
+}
+
+.human {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  border-radius: 50%;
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0px;
+}
+
+.body {
+  background-color: blue;
+  width: 50px;
+  height: 100px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.left-hand,
+.right-hand {
+  background-color: blueviolet;
+  width: 10px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.left-hand {
+  position: relative;
+  right: 10px;
+  transform: rotate(20deg);
+
+}
+
+.right-hand {
+  position: relative;
+  left: 10px;
+  transform: rotate(-20deg);
+}
+
+.legs {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-leg,
+.right-leg {
+  background-color: black;
+  width: 10px;
+  height: 100px;
+}
+
